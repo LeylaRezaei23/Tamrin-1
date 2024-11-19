@@ -1,0 +1,160 @@
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* استایل div بالایی */
+.top-div {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 3%; /* فاصله داخلی */
+  display: flex;
+  align-items: center; /* وسط‌چین کردن عمودی */
+}
+
+.profile-circle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 100px; /* فاصله از متن */
+  overflow: hidden; /*حدف کردن بخش های اضافی تصویر*/
+}
+
+.MyCircleDiv img {
+  width: 100%; /*تصویر به اندازه دایره باشد*/
+  height: auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 25%;
+}
+
+/* استایل کانتینر div های پایین */
+.bottom-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-div {
+  width: 33.33%;
+  background-color: #ede8e2;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 13%;
+  text-align: left;
+}
+
+.addrees {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+  font-size: 18px; 
+  text-align: left;
+  margin-top: 4%;
+}
+
+a:link {
+  color: black;
+}
+
+.education-section {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  margin-top: 8px;
+}
+
+.line {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 1px;
+  height: 50px; /* می‌توانید ارتفاع را تنظیم کنید */
+  background-color: black;
+  margin-top: 13px;
+}
+
+.education-details {
+  margin-left: 20px;
+}
+
+.degree {
+  font-size: 20px; 
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0%;
+}
+
+.university {
+  font-size: 18px; 
+  text-align: left;
+  margin-top: 3%;
+}
+
+.skill-details {
+  font-size: 18px; 
+  text-align: left;
+  margin-top: 5%;
+}
+
+.right-div {
+  width: 66.66%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+h3 {
+  font-size: 28px; 
+  margin-top: 6%;
+  padding-bottom: 2px; /* فاصله پایین برای خط زیرین */
+  border-bottom: 2px solid black; /* خط مشکی زیر هر عنوان */
+  text-align: left;
+}
+.p1 {
+  font-size: 20px; 
+  text-align: left;
+  margin-top: 3%;
+}
+
+.p2 {
+  font-size: 20px; 
+  text-align: left;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.p3 {
+  font-size:16px; 
+  color: darkgrey;
+  text-align: left;
+}
+.p4 {
+  font-size: 20px; 
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 1%;
+}
